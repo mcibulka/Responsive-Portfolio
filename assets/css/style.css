@@ -1,0 +1,156 @@
+/* HTML Elements */
+body {
+    background: url("../images/funky_lines.png");
+}
+
+button {
+    background-color: #4aaaa5;
+    color: white;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 10px 15px;
+}
+
+footer {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    clear: both;
+    font-size: 14px;
+    padding: 12px;
+    position: relative;
+    text-align: center;
+    top: 75px;
+}
+
+form {
+    color: #777777; 
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    border-bottom: 2px solid #cccccc;
+    color: #4aaaa5;
+    font-size: 24px;
+    padding: 15px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+input {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    width: 920px;
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+main {
+    background-color: #ffffff;
+    margin: 10px 200px 20px;
+    position: relative;
+    top: 75px;
+    width: 960px;
+}
+
+nav {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+p {
+    color: #777777; 
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.5;
+    padding: 10px 20px;
+}
+
+textarea {
+    border-color: #dfdfdf;
+    color: #777777;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    width: 920px;
+}
+
+
+/* IDs */
+#aboutMe {
+    height: 500px;
+}
+
+#contact {
+    height: 500px;
+}
+
+#logo {
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+    margin-left: 200px;
+    margin-right: 440px;
+    text-align: center;
+    width: 200px;
+}
+
+#portfolio {
+    height: 900px;
+}
+
+#profilePhoto {
+    position: relative;
+    float: left;
+    height: 200px;
+    padding: 20px;
+    width: 200px;
+}
+
+
+/* Classes */
+.navBtn {
+    color: #777777;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.portfolioImage {
+    height: 200px;
+    width: 300px;
+}
+
+.projectContainer {
+    float: left;
+    padding: 20px;
+    height: 240px;
+    width: 440px;
+}
+
+.projectName {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    bottom: 75px;
+    width: 260px;
+}
