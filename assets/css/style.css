@@ -165,7 +165,6 @@ textarea {
     }
 
     header {
-        /* align: center; */
         position: static;
     }
 
@@ -188,6 +187,8 @@ textarea {
 
     #logo {
         text-align: center;
+        margin-left: 0;
+        margin-right: 0;
         width: 100%;
     }
 
