@@ -64,10 +64,6 @@ header {
 
 main {
     background-color: #ffffff;
-    margin: 10px 200px 20px;
-    position: relative;
-    top: 75px;
-    width: 960px;
 }
 
 nav {
@@ -154,3 +150,55 @@ textarea {
     bottom: 75px;
     width: 260px;
 }
+
+.wrapper {
+    margin: 10px 200px 20px;
+    position: relative;
+    top: 75px;
+    width: 960px;
+}
+
+
+@media screen and (max-width: 640px) {
+    footer {
+        top: 100px;
+    }
+
+    header {
+        /* align: center; */
+        position: static;
+    }
+
+    input {
+        margin-bottom: 7px;
+        margin-top: 5px;
+        width: 100%;
+    }
+
+    nav {
+        clear: both;
+        text-align: center;
+    }
+
+    textarea {
+        margin-bottom: 10px;
+        margin-top: 5px;
+        width: 100%;
+    }
+
+    #logo {
+        text-align: center;
+        width: 100%;
+    }
+
+    .navBtn {
+        padding: 20px;
+        text-decoration: none;
+    }
+
+    .wrapper {
+        margin: 10px 5% 20px;
+        top: 20px;
+        width: 90%;
+    }
+  }
